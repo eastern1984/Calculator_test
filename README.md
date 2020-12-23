@@ -1,4 +1,7 @@
 # Calculator_test
+
+# For start go to /server and run "npm start"
+
 MERN Typescript
 Task for job: Full stack React & nodejs
 developer-Long term position
