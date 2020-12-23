@@ -1,0 +1,82 @@
+@font-face {
+  font-family: VarelaRound;
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+}
+
+.header{
+  height: 70px;
+  background-color: #C10708;
+}
+
+.title{
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+.form-wrapper {
+  margin-top: 60px;
+  width: 335px;
+  border: 0.5px solid #A4A4A4;
+  box-shadow: 2px 6px 10px #00000029;
+}
+
+.main-wrapper, .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input, button {
+  display: block;
+  margin: auto;
+}
+
+input {
+  width: 227px;
+  border: 1px solid #A4A4A4;
+  padding: 9px;
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #A4A4A4;
+}
+
+button {
+  width: 227px;
+  height: 36px;
+  margin-top: 20px;
+  background-color: #C10708;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+hr {
+  margin-top: 50px;
+  width: 227px;
+}
+
+.sum {
+  border: 1px solid #C10708;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.form-text {
+  text-align: center;
+  font-size: 16px;
+  color: #A4A4A4;
+  margin-top: 30px;
+}
+
+p {
+  font-family:  VarelaRound;
+}
+
+@media screen and (min-width: 1920px) {
+  .form-wrapper {
+    width: 740px;
+  }
+}
