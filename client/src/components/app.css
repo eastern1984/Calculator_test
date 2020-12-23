@@ -1,8 +1,5 @@
-@font-face {
-  font-family: VarelaRound;
-  font-style: normal;
-  font-weight: 400;
-  src: url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+* {
+  font-family: 'Varela Round', sans-serif;
 }
 
 .header{
@@ -69,10 +66,6 @@ hr {
   font-size: 16px;
   color: #A4A4A4;
   margin-top: 30px;
-}
-
-p {
-  font-family:  VarelaRound;
 }
 
 @media screen and (min-width: 1920px) {
